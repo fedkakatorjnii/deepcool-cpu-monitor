@@ -8,6 +8,7 @@ pub struct Settings {
     pub vendor_id: u16,
     pub product_id: u16,
     pub time: u64,
+    pub log_level: String,
 }
 
 pub fn load(config_path: &str) -> Result<Settings> {

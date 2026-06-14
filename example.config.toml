@@ -1,0 +1,5 @@
+vendor_id = 0x3633
+product_id = 0x0001
+cpu = "k10temp Tctl"
+time = 2000
+log_level = "INFO"

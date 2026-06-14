@@ -2,10 +2,10 @@ use crate::constants::{Case, LIGHT, Mode};
 use crate::convert_num::convert_num;
 
 pub struct Data {
-    light: u8,
-    case: Case,
-    mode: Mode,
-    data: f32,
+    pub light: u8,
+    pub case: Case,
+    pub mode: Mode,
+    pub data: f32,
 }
 
 impl Data {
